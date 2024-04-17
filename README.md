@@ -1,4 +1,7 @@
 # microbiota
+OJO Tienes dos scripts, el primero es microbiota.R; que desde los raws genera la asv table, asigna taxonomía y crea arbol filogenético y exporta todo como un objeto phyloseq. El segundo es Tjazi.R, que sigue la guía de Thomaz y hace lo que es el análisis de alfa, beta, DA, correlaciones con conducta y todos los plots.
+
+
 Sólo el código. Empieza siguiendo la guía de DADA2;
 * Importa raws, F y R
 * Filtra y trimea (está comentado lo que yo hice de primeras, sin comentar la sugerencia de Thomaz de quitar un número fijo, no solo primers)
